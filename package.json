@@ -17,18 +17,21 @@
     "popper.js": "^1.12.9",
     "simple-line-icons": "^2.4.1"
   },
-  "name": "carbon-admin",
+  "name": "@ghobaty/carbon-admin",
   "description": "Carbon is a free admin template based on Bootstrap 4",
   "version": "2.0.0",
   "main": "webpack.mix.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ghobaty/carbon.git"
+    "url": "git+https://github.com/ghobaty/carbon-admin.git"
   },
   "author": "Mohammed Isa",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ghobaty/carbon/issues"
   },
-  "homepage": "https://github.com/ghobaty/carbon#readme"
+  "homepage": "https://github.com/ghobaty/carbon#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
